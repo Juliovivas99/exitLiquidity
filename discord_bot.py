@@ -76,7 +76,7 @@ def send_mover_alert(movers: list[dict[str, Any]]) -> None:
         "color": color,
         "fields": fields,
         "footer": {
-            "text": "Powered by Yahoo Finance | Updates every 30 min",
+            "text": "Updates at 09:00, 09:45, 12:30, 15:45 ET (trading days)",
         },
     }
 
